@@ -1,0 +1,118 @@
+{
+  "header": {
+    "userTag": "The Frontend Club",
+    "name": "thefrontendclub",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/thefrontendclub/",
+      "twitter": "https://twitter.com/thefrontendclub",
+      "whatsapp": "https://chat.whatsapp.com/Co3bQAvYwx4DflbpWV0fa2",
+      "discord": "https://discord.com/invite/4MTjeEXb",
+      "instagram": "https://www.instagram.com/thefrontendclubs/"
+    }
+  },
+  "intro": {
+    "designations": ["React, Angular, Vue", "Full Stack Development", "Flutter / React Native", "JavaScript / TypeScript", "1:1 Mentoring"],
+
+    "text": "Looking for a place that provides a little bit of everything- from knowledge & skills to unbreakable bonds? Well it's safe to say you're on the right track!✨"
+  },
+  "events": [
+    {
+      "name": "Coffee with T.F.C",
+      "description": "The frontend club Delhi community meetup",
+      "date": "25th November, 2023",
+      "redirect": "https://lu.ma/coffee-with-tfc",
+      "image": "/logoWhite.svg"
+    },
+    {
+      "name": "React Delhi Meetup x T.F.C",
+      "description": "Community Collaboration with React Delhi",
+      "date": "21st September, 2023",
+      "redirect": "https://x.com/reactdelhi/status/1704144939771158666?s=20",
+      "image": "https://media.licdn.com/dms/image/D4D22AQEq5i5UanaSvA/feedshare-shrink_800/0/1695663331045?e=1700092800&v=beta&t=OxfZP7hlj43AJIb5o_GSnzPmzcz95px1GkdEaELTs9A"
+    }
+  ],
+  "coffee-with-tfc": {
+    "name": "Coffee with T.F.C"
+  },
+  "team": [
+    {
+      "name": "Pranav Agarwal",
+      "role": "Core Team",
+      "imgLink": "/profileImages/pranavAggarwal.jpeg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/pranav-agr/",
+        "twitter": "https://x.com/Pranav__agr",
+        "discord": "https://discordapp.com/users/294026753738014720"
+      }
+    },
+    {
+      "name": "Shivam Bhasin",
+      "role": "Core Team",
+      "imgLink": "/profileImages/shivamBhasin.jpeg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/shivam-bhasin-465233166/",
+        "twitter": "https://twitter.com/_shivambhasin",
+        "discord": "https://discordapp.com/users/555804951838851112"
+      }
+    },
+    {
+      "name": "Sairam Kaushik",
+      "role": "Core Team",
+      "imgLink": "/profileImages/sairamKaushik.png",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/sairamkaushik",
+        "twitter": "https://x.com/sairam_002",
+        "discord": "https://discordapp.com/users/842121848430919722"
+      }
+    },
+    {
+      "name": "Krish Khattar",
+      "role": "Core Team",
+      "imgLink": "/profileImages/krishKhattar.jpg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/krish-khattar-747902223",
+        "twitter": "https://x.com/krish_khattar",
+        "discord": "https://discordapp.com/users/739161367797563423"
+      }
+    },
+    {
+      "name": "Aman Negi",
+      "role": "Core Team",
+      "imgLink": "/profileImages/amanNegi.jpeg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/aman-negi-%E2%9D%84%EF%B8%8F-winterlude-2763a9211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "twitter": "https://x.com/9900arya?t=biIZD-eQlBlgs_4q65-99A&s=09",
+        "discord": "https://discord.com/users/900743538701111297"
+      }
+    },
+    {
+      "name": "Khyati Mehra",
+      "role": "Core Team",
+      "imgLink": "/profileImages/khyatiMehra.jpeg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/khyatimehra",
+        "twitter": "https://x.com/Khyatimehraa"
+      }
+    },
+    {
+      "name": "Aniketa ",
+      "role": "Graphics / Design Volunteer",
+      "imgLink": "/profileImages/aniketa.jpeg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/aniketakumari/",
+        "twitter": "https://x.com/_aniketaaaa_",
+        "discord": "https://discordapp.com/users/929643488981696532"
+      }
+    },
+    {
+      "name": "Disha Verma",
+      "role": "Graphics / Design Volunteer",
+      "imgLink": "/profileImages/dishaVerma.jpeg",
+      "socials": {
+        "linkedin": "https://www.linkedin.com/in/disha-verma-415435231/",
+        "twitter": "https://x.com/theflank08",
+        "discord": ""
+      }
+    }
+  ]
+}
