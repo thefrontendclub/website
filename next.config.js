@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['thefrontendclub.vercel.app','media.licdn.com','pbs.twimg.com']
+    domains: ['thefrontendclub.vercel.app','secure.meetupstatic.com','pbs.twimg.com', 'images.lumacdn.com']
   },
 }
 

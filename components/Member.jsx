@@ -7,7 +7,7 @@ const Member = ({ imgLink, name, role, socials }) => {
   const { discord, linkedin, twitter } = socials;
   return (
     <div className="flex flex-col gap-4 p-6 items-center">
-      <Image className="profile-image rounded-full max-h-[200px] max-w-[200px]" alt={`${name} image`} src={imgLink} width={200} height={200} />
+      <Image className="profile-image rounded-full max-h-[100px] max-w-[100px] md:max-h-[200px] md:max-w-[200px]" alt={`${name} image`} src={imgLink} width={200} height={200} />
       <div className="name text-3xl font-bold">{name}</div>
       <div className="role text-lg">{role}</div>
       <div className="flex justify-center items-center gap-4">

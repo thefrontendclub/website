@@ -19,14 +19,14 @@ const EventsPage = () => {
           <div className="container mx-auto">
             <div className="flex flex-wrap -mx-4">
               <div className="w-full px-4">
-                <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
+                <div className="mx-auto mb-8 max-w-[510px] text-center lg:mb-20">
                   <h2 className="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[40px]">Our Events</h2>
                   <p className="text-base text-body-color">All events by T.F.C are listed below </p>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-wrap p-8 mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-8 mb-12 justify-items-center items-end">
               {data.events.map((event, idx) => (
                 <EventCard key={idx} date={event.date} CardTitle={event.name} CardDescription={event.description} image={event.image} redirectUrl={event.redirect} />
               ))}
@@ -43,10 +43,10 @@ export default EventsPage;
 const EventCard = ({ image, date, CardTitle, CardDescription, redirectUrl }) => {
   return (
     <Link href={redirectUrl}>
-      <div className="cursor-pointer w-full px-4 md:w-1/2 lg:w-1/3">
-        <div className="mx-auto mb-10 max-w-[370px]">
-          <div className="mb-8 overflow-hidden rounded">
-            <Image src={image} alt="" className="w-full rounded-xl" width={650} height={400} />
+      <div className="cursor-pointer w-full px-4">
+        <div className="mx-auto mb-10">
+          <div className="mb-8 overflow-hidden rounded flex">
+            <Image src={image} alt="" className="rounded-xl min-w-[300px] min-h-[300px] md:min-w-200 md:min-h-200 object-contain" height={200} width={200} />
           </div>
           <div>
             {date && <span className="inline-block py-1 mb-5 text-xs font-semibold leading-loose text-center text-blue-400 rounded dark:bg-primary bg-primary-dark">{date}</span>}

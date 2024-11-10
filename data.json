@@ -17,6 +17,13 @@
   },
   "events": [
     {
+      "name": "#2 Coffee with T.F.C",
+      "description": "The frontend club Delhi community meetup",
+      "date": "14th December, 2024",
+      "redirect": "https://lu.ma/pvobne4n",
+      "image": "https://images.lumacdn.com/cdn-cgi/image/format=auto,fit=cover,dpr=2,background=white,quality=75,width=400,height=400/event-covers/5b/25090baa-1dad-4d59-aca0-777910e4e177"
+    },
+    {
       "name": "Coffee with T.F.C",
       "description": "The frontend club Delhi community meetup",
       "date": "25th November, 2023",
@@ -28,7 +35,7 @@
       "description": "Community Collaboration with React Delhi",
       "date": "21st September, 2023",
       "redirect": "https://x.com/reactdelhi/status/1704144939771158666?s=20",
-      "image": "https://media.licdn.com/dms/image/D4D22AQEq5i5UanaSvA/feedshare-shrink_800/0/1695663331045?e=1700092800&v=beta&t=OxfZP7hlj43AJIb5o_GSnzPmzcz95px1GkdEaELTs9A"
+      "image": "https://secure.meetupstatic.com/photos/event/2/3/6/0/clean_515109056.webp"
     }
   ],
   "coffee-with-tfc": {

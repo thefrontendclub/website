@@ -7,6 +7,9 @@ import Member from "../components/Member";
 const Home = () => {
   const { header, team } = data;
   const [darkModeActive, setDarkModeActive] = useState(true);
+  // Shuffle the team array
+  const shuffledTeam = team.sort(() => Math.random() - 0.5);
+
   return (
     <>
       <Head>
@@ -14,8 +17,8 @@ const Home = () => {
       </Head>
       <Layout darkMode={darkModeActive} onClick={setDarkModeActive} header={header}>
         <div className="text-[20px] md:text-[50px] flex justify-center items-center">Meet our team of Awesome folks</div>
-        <div className="flex gap-10 justify-center flex-wrap pb-20 mt-4">
-          {team.map((data, i) => (
+        <div className="flex gap-10 justify-center flex-wrap pb-32 mt-4">
+          {shuffledTeam.map((data, i) => (
             <Member key={i} {...data} />
           ))}
         </div>
